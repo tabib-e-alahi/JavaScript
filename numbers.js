@@ -8,8 +8,23 @@ var c = '34'
 //convert numerical string to numeric
 var numeric_c = parseInt(c)
 // console.log(numeric_c, typeof numeric_c)
+
 //but if we try to convert a text string, it will give NaN(Not A Number)
 var name = "Tabib"
 var convert_name = parseInt(name)
-console.log(convert_name)
-console.log(typeof convert_name)
+// console.log(convert_name)
+// console.log(typeof convert_name)
+
+var price = '22.6'
+var price_int = parseInt(price)
+console.log(price_int)
+
+var price_float = parseFloat(price)
+
+console.log(price_float)
+
+var a = 0.1
+var b = 0.2
+var c = a + b
+console.log(c)
+console.log(c.toFixed(2))
