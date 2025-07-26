@@ -32,3 +32,14 @@ var c = a + b
 
 console.log(50/0) //   Infinity
 console.log(-50/0) // -Infinity
+
+// Opps momments
+console.log(5 + '10', typeof (5 + '10')) //510,  type: string
+console.log('10' + 5) // 105, type: string
+console.log(30 - '10', typeof (30 - '10')) //20, type: number
+console.log('40' - 20) //20, type: number
+console.log('40' - '15')//25, type: number
+console.log('40' * '10')//400, type: number
+console.log('40' / '10')//4, type: number
+
+//So only in '+' , string and number give string output, but for -, *, /, % its give number output
