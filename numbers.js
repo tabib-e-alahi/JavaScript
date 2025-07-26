@@ -43,3 +43,8 @@ console.log('40' * '10')//400, type: number
 console.log('40' / '10')//4, type: number
 
 //So only in '+' , string and number give string output, but for -, *, /, % its give number output
+
+//isNaN()
+console.log(isNaN(9)) // false
+console.log(isNaN('11')) // false
+console.log(isNaN('4' - 'tabib')) //true
