@@ -6,4 +6,4 @@ const canVote = (age >= 18) ? true : false
 
 console.log(canVote)
 
-console.log(age >= 18 ? "You can vote" : "You can not vote")
+console.log((age >= 18) ? "You can vote" : "You can not vote")
