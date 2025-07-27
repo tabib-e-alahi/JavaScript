@@ -47,3 +47,51 @@ if ((money >= 200 && age >= 18) || (height >= 180) || hasConsent) {
 else {
     console.log("No, You could not enter in the area.");
 }
+
+// -------------------------------SWITCH CASE------------------------------
+// switch(expression) {
+//   case x:
+//     // code block
+//     break;
+//   case y:
+//     // code block
+//     break;
+//   default:
+//     // code block
+// }
+
+/*
+
+This is how it works:
+    -> The switch expression is evaluated once.
+    -> The value of the expression is compared with the values of each case.
+    -> If there is a match, the associated block of code is executed.
+    -> If there is no match, the default code block is executed.
+
+*/
+
+
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+}
+
+console.log(day);
