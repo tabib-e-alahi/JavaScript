@@ -1,0 +1,2 @@
+there are also many array methods available. So explore the google , w3school or MDN for 
+to gain knowledge when needed. Just search for it.
