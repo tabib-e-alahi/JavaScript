@@ -1,2 +1,19 @@
 there are also many array methods available. So explore the google , w3school or MDN for 
 to gain knowledge when needed. Just search for it.
+
+Basic array methods:
+ length
+ toString()
+ at()
+ join()
+ pop()
+ push()
+ shift()
+ unshift()
+ delete()
+ concat()
+ copyWithin()
+ flat()
+ slice()
+ splice()
+ toSpliced()
