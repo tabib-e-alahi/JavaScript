@@ -21,3 +21,8 @@ for(let i = 1; i <= 10; i++)
         console.log(i ,"is odd");
     }
 }
+
+for(let i = 20; i > 0; i--)
+{
+    console.log(i);
+}
