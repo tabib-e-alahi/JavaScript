@@ -53,7 +53,7 @@ const exam_result = {
         Physics: 88,
         Bangla: 82
     },
-    fullmark:300,
+    'fullmark':300,
     topTenRoll:[3, 4, 2, 1, 67, 5, 8, 9, 10, 24],
     highestTotalMarks: 250,
     teacherComment: "Verry Good",
@@ -61,10 +61,14 @@ const exam_result = {
 }
 
 //access top 6th student roll from topTenRoll
-console.log(exam_result.topTenRoll[5])//index start from 0
+// console.log(exam_result.topTenRoll[5]) //index start from 0
 
 //how many number got any Bangla
-console.log(exam_result.result.Bangla)
+// console.log(exam_result.result.Bangla)
+
+//access the fullMark
+console.log(exam_result.fullmark)
+console.log(exam_result["fullmark"])
 
 //so an object can contain many types of data and many nested data
 
