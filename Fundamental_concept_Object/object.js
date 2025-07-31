@@ -3,7 +3,7 @@
 /**
  Js object are define:
 
- => Using an Object Literal [An object literal is a list of name:value pairs inside curly braces {}.]
+ => Using an Object Literal (most common) [An object literal is a list of name:value pairs inside curly braces {}.]
  => Using the "new" Keyword 
  => Using an Object Constructor 
 
