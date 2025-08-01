@@ -17,3 +17,5 @@ console.log(square) //400
 
 console.log(getSquareValue(50))
 
+
+
