@@ -18,4 +18,20 @@ function print_value(num)
     console.log(num);
 }
 
-print_value(number)
+// print_value(number)
+
+function add_values(num1, num2)
+{
+   console.log(num1 + num2)
+}
+
+// add_values(45, 55)
+
+//for using a function, you need to call it functionName(parameters) , parameters are optional, depends on you are using parameters or not.
+
+function print_sentences()
+{
+   console.log("this is a function with no parameters.")
+}
+
+print_sentences()
