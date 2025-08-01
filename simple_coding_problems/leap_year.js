@@ -1,7 +1,7 @@
 /**
  * A year is leap year if:
  * => year is divisible by 4 and year is not divisble by 100.
- * => 
+ * => else the year should be divisible by 400
  */
 
 
