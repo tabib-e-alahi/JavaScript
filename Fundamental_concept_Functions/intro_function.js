@@ -25,7 +25,10 @@ function add_values(num1, num2)
    console.log(num1 + num2)
 }
 
+//resuning
 // add_values(45, 55)
+// add_values(45, 78)
+// add_values(40, 48)
 
 //for using a function, you need to call it functionName(parameters) , parameters are optional, depends on you are using parameters or not.
 
