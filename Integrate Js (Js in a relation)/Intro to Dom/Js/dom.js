@@ -24,5 +24,5 @@ console.log(li_collection)
 
 for(const li of li_collection)
 {
-    console.log(li.innerText)
+    // console.log(li.innerText)
 }

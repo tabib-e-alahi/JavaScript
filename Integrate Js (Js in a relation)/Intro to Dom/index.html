@@ -3,22 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <h1>Welcome to DOM</h1>
     </header>
-    <main>
-        <h2>Document Object Model</h2>
+    <main id="main-container">
+      <section id="old-dhaka" class="songs">
+        <h1>Welcome to my DOM</h1>
+        <p>
+          Lorem ipsum dolor <span>oli goli</span> amet consectetur adipisicing
+          elit. <span>Alias</span>, temporibus!
+        </p>
+        <h1>asdf asdf <span>Some text</span></h1>
         <ul>
-            <li>Document</li>
-            <li>Object</li>
-            <li>Model</li>
+          <li>Shafayet</li>
+          <li class="foreign">Bonobash</li>
+          <li id="band" class="">Jalali Set</li>
+          <li class="international">Dubai</li>
+          <li>Dom De re baba</li>
         </ul>
+      </section>
+      <section class="food">
+        <h1 id="food-title">Foods I love</h1>
+        <ul>
+          <li>Rice</li>
+          <li>Potato</li>
+          <li>Fish</li>
+          <li>Lentils</li>
+          <li class="foreign">Burger</li>
+          <li class="foreign">Pizza</li>
+          <li class="foreign">Pasta</li>
+        </ul>
+      </section>
+      <section id="players-container">
+        <h1>Players</h1>
+        <ul id="player-list">
+          <li>Messi</li>
+          <li>Pele</li>
+          <li>Ronaldo</li>
+          <li>Embape</li>
+          <li>Chele</li>
+        </ul>
+      </section>
     </main>
 
     <script src="Js/dom.js"></script>
+    <script>
+
+        const food_list = document.getElementsByClassName('food');
+        console.log(food_list[0])
+        const food_title = document.getElementById('food-title');
+        console.log(food_title.innerText) 
+
+    </script>
   </body>
 </html>
