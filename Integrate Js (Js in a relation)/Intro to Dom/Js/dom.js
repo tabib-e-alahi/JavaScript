@@ -17,4 +17,12 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 */
 
 console.log("Js connected to HTML.")
-console.log(document.body)
+// console.log(document.body)
+
+const li_collection = document.getElementsByTagName('li')
+console.log(li_collection)
+
+for(const li of li_collection)
+{
+    console.log(li.innerText)
+}
