@@ -16,7 +16,7 @@ With the object model, JavaScript gets all the power it needs to create dynamic 
 
 */
 
-console.log("Js connected to HTML.")
+// console.log("Js connected to HTML.")
 // console.log(document.body)
 
 const li_collection = document.getElementsByTagName('li')
@@ -27,19 +27,19 @@ for (const li of li_collection) {
 }
 
 const food_list = document.getElementsByClassName("food");
-console.log(food_list[0]);
+// console.log(food_list[0]);
 const food_title = document.getElementById("food-title");
-console.log(food_title.innerText);
+// console.log(food_title.innerText);
 //change the food title
 food_title.innerText = "Food title changed from source code.";
 
 const foreign_class = document.getElementsByClassName("foreign");
 for (const for_class of foreign_class) {
-    console.log(for_class.innerText);
+    // console.log(for_class.innerText);
 }
 
 const foreign_class_with_querySelector = document.querySelectorAll(".foreign");
-console.log(foreign_class_with_querySelector)
+// console.log(foreign_class_with_querySelector)
 
 //getElementsByClassName vs querySelectorAll
 /*
@@ -64,8 +64,8 @@ console.log(foreign_class_with_querySelector)
 const live = document.getElementsByClassName("item");
 const staticList = document.querySelectorAll(".item");
 
-console.log(live.length);      // 2
-console.log(staticList.length); // 2
+// console.log(live.length);      // 2
+// console.log(staticList.length); // 2
 
 // Add a new <li>
 const li = document.createElement("li");
@@ -74,5 +74,6 @@ li.textContent = "C";
 document.querySelector("ul").appendChild(li);
 
 
-console.log(live.length);      // 3 (updated automatically)
-console.log(staticList.length); // 2 (unchanged)
+// console.log(live.length);      // 3 (updated automatically)
+// console.log(staticList.length); // 2 (unchanged)
+
