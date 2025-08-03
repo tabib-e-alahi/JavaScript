@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -11,12 +12,25 @@
         <h1 id="heading">Create HTML Element Using JS</h1>
     </header>
     <main>
+        <section id="address_container">
+            <h1>This is my Address</h1>
+            <ul>
+                <li>Country: Bangladesh</li>
+                <li>Division: Rangpur</li>
+                <li>District: Kurigram</li>
+            </ul>
+        </section>
 
     </main>
 
     <script src=""></script>
     <script>
-        document.getElementById("heading").style.textAlign = "center";
+        const heading = document.getElementById("heading");
+        heading.style.textAlign = "center";
+        heading.style.fontSize = "48px";
+
+        const addressContainer = document.getElementById("address_container");
+        addressContainer.classList.add("align_items")
     </script>
 </body>
 </html>
