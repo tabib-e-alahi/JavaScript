@@ -58,5 +58,21 @@ console.log(foreign_class_with_querySelector)
     => HTMLCollection works like an array but not truly an array. Use items[0], but not forEach directly (convert first: Array.from(items)).
     => NodeList works more like an array. You can use forEach directly.
 
-
 */
+
+//Example:
+const live = document.getElementsByClassName("item");
+const staticList = document.querySelectorAll(".item");
+
+console.log(live.length);      // 2
+console.log(staticList.length); // 2
+
+// Add a new <li>
+const li = document.createElement("li");
+li.className = "item";
+li.textContent = "C";
+document.querySelector("ul").appendChild(li);
+
+
+console.log(live.length);      // 3 (updated automatically)
+console.log(staticList.length); // 2 (unchanged)
