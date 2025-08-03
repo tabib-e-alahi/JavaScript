@@ -13,8 +13,18 @@ for(const section of sections)
 
 //If want to style a specific element, then the best practice is use "id"
 
-const playerContainer = document.getElementById("player-list");
-playerContainer.style.fontSize = "24px"; 
-playerContainer.style.fontWeight = "800";
-playerContainer.style.color = "steelblue";
+const player = document.getElementById("player-list");
+player.style.fontSize = "24px"; 
+player.style.fontWeight = "800";
+player.style.color = "steelblue";
+
+// const playerContainer = document.getElementById("players-container");
+// playerContainer.style.backgroundColor = "yellow"
+
+//adding with classList
+const playerContainer = document.getElementById("players-container");
+playerContainer.classList.add("yellow_bg");
+
+//remove a class
+playerContainer.classList.remove("yellow_bg")
  

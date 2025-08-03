@@ -2,3 +2,8 @@ h1{
     color: brown;
     font-weight: 700;
 }
+
+.yellow_bg{
+    background-color: yellow !important;
+    text-align: center;
+}
