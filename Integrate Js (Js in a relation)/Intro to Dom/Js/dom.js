@@ -44,15 +44,19 @@ console.log(foreign_class_with_querySelector)
 //getElementsByClassName vs querySelectorAll
 /*
 1. Return:
-=> getElementsByClassName return An HTMLCollection (live collection).
-=> querySelectorAll return A NodeList (static collection).
+    => getElementsByClassName return An HTMLCollection (live collection).
+    => querySelectorAll return A NodeList (static collection).
+    
+2. Live vs static collection:
+    => Live: updates automatically if the DOM changes.
+        Example: If you add a new element with the same class later, it appears in the collection.
+    
+    => Static → does not update when the DOM changes.
+        Example: Adding a new element later won’t affect the NodeList.
 
-2. Access:
-=> HTMLCollection works like an array but not truly an array. Use items[0], but not forEach directly (convert first: Array.from(items)).
-=> NodeList works more like an array. You can use forEach directly.
+3. Access:
+    => HTMLCollection works like an array but not truly an array. Use items[0], but not forEach directly (convert first: Array.from(items)).
+    => NodeList works more like an array. You can use forEach directly.
 
-3. Live vs static collection:
-=> Live: updates automatically if the DOM changes.
-Example: If you add a new element with the same class later, it appears in the collection.
 
 */
